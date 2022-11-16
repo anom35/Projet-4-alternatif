@@ -34,7 +34,7 @@ h1, h2, h3 { color: var(--grisnoir);}
     font-style: italic;
 }
 .text-shadow-white {
-    text-shadow: 0 0 30px white!important;
+    text-shadow: 0 0 20px white!important;
 }
 .text-shadow-black {
     text-shadow: 0 0 10px var(--grisnoir)!important;
@@ -89,9 +89,6 @@ h1, h2, h3 { color: var(--grisnoir);}
 /* end global */
 
 
-/* main {
-    position: relative;
-} */
 
 
 /* header */
@@ -256,7 +253,6 @@ nav div {
 .disposition p {
     padding-bottom: 40px;
 }
-
 .card {
     display: flex;
     flex-direction: column;
@@ -265,6 +261,28 @@ nav div {
     width: 100%;
 }
 
+#overlay {
+    /* display: none; */
+    position: fixed;
+    top: 50px; right:50px;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1000;
+}
+#overlay a:target {
+    display: block;
+}
+#overlay a:hover {
+    display: block;
+}
+#overlay a {
+    font-weight: bold;
+    padding: 10px 25px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50px;
+}
 
 
 /* fin portfolio */
@@ -343,7 +361,6 @@ footer {
     height: 500px;
     margin: 0 auto;
 }
-
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
@@ -356,7 +373,6 @@ footer {
     height: 300px;
     margin-top: 35px;
 }
-
 #form_1 input,
 #form_1 label,
 #form_1 textarea {
@@ -415,5 +431,4 @@ footer {
 .my-footer p {
     margin: 0;
 }
-
 /* fin footer */
