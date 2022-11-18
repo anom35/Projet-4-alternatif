@@ -83,6 +83,11 @@ nav div {
     font-weight: normal;
 }
 
+.titre-presentation {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
 .modules {
     display: flex;
     max-width: 800px;
@@ -98,7 +103,6 @@ nav div {
     max-width: 650px;
 
 }
-
 /* fin présentation de l'entreprise */
 
 
@@ -233,7 +237,7 @@ footer {
 .fond-contact {
     display: flex;
     justify-content: center;
-    background-color: var(--orangelight);
+    background-color: var(--orange);
     background-image: url("../img/dots-bg.webp");
 }
 /* fin présentation */
@@ -311,10 +315,47 @@ footer {
 /* footer */
 .my-footer {
     margin: 0 auto;
-    background-color: var(--orangelight);
+    background-color: var(--orange);
     padding: 20px 0;
 }
 .my-footer p {
     margin: 0;
 }
 /* fin footer */
+
+
+
+
+
+
+/* média query */
+@media (max-width:1200px) {
+    .presentation {
+        margin: 20px auto;  
+        padding-left: 10px;
+        padding-right: 10px; 
+    }
+}
+
+@media (max-width:700px) {
+    .disposition {
+        flex-direction: column;
+    }
+    .disposition div {
+        width: 270px;
+    }
+    .card {
+        justify-content: center;
+    }
+}
+
+@media (max-width:576px) {
+    .modules {
+        display: flex;
+        flex-direction: column;
+        width: 260px;
+    }
+}
+
+@media (max-width:320px) {
+}
