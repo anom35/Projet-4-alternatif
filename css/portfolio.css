@@ -5,10 +5,9 @@
     visibility: hidden;
     opacity: 0;
     position: absolute;
-    top: 25%; left: 25%;
+    top: 2000px; left: 28%;
     background-color: rgba(77, 77, 77, .7);
     transition: 0.5s;
-    margin: auto 0;
 }
 
 /* ouverture de la fenetre */
@@ -23,6 +22,8 @@
     border-radius: 5px;
     padding: 1em 5em;
     width: 500px;
+    
+
     position: relative;
 }
 .modal_content img {
@@ -33,20 +34,23 @@
 /* fermeture de la fenetre */
 .modal_close {
     position: absolute;
-    right: 20px;
-    top: 20px;
-    font-size: 1em;
+    right: 10px;
+    top: 10px;
+    font-size: 2em;
+    padding: 3px 6px;
+    background-color: grey;
     color: var(--orange);
+    border-radius: 5px;
 }
 
 /* bouton navigation gauche */
 .btn-left {
-    left: 20px;
+    left: 13px;
 }
 
 /* bouton navigation droit */
 .btn-right {
-    right: 20px;
+    right: 13px;
 }
 
 .btn-dim {
@@ -54,20 +58,22 @@
     top: 50%;
     font-size: 2em;
     color: var(--orange);
+    padding: 5px 10px;
+    background-color: grey;
+    border-radius: 5px;
 }
-
-/* style boutons */
-.fa-solid.fa-rectangle-xmark,
-.fa-regular.fa-square-arrow-left,
-.fa-solid.fa-square-arrow-right {
-    font-size: 2em;
-    color: var(--orange);
-    
+.modal_content a {
+    border: 2px solid grey;
 }
-
 /* hover sur les boutons */
-.modal_close:hover,
-.btn-left:hover,
-.btn-right:hover {
+.fa-solid.fa-arrow-left-long:hover,
+.fa-solid.fa-arrow-right-long:hover,
+.fa-solid.fa-rectangle-xmark:hover {
     text-shadow: 0 0 20px white!important;
+    text-shadow: 0 0 5px black!important;
+    color: white;
+}
+.modal_content a:hover {
+    border: 2px solid black!important;
+
 }
