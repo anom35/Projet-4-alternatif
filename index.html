@@ -9,6 +9,7 @@
         <script src="https://kit.fontawesome.com/0faa74c727.js" crossorigin="anonymous"></script>
 
         <link rel="stylesheet" href="css/et-line.css">
+        <link rel="stylesheet" href="css/portfolio.css">
         <link rel="stylesheet" href="css/style.css">
 
        
@@ -49,7 +50,7 @@
             </header>
             <!-- fin header -->
 
-            <!-- Accueil -->
+            <!-- accueil -->
             <section>
                 <div class="accueil">
                     <img src="img/logo.webp" width="100" alt="Agence La Panthère, agence web paris, création logo paris">
@@ -59,6 +60,7 @@
                     </div>
                 </div>
             </section>  
+            <!-- fin accueil -->
 
             <!-- Présentation des services de l'agence -->
             <section>
@@ -143,7 +145,7 @@
 
             <!-- Portfolio -->
             <section>
-                <div class="container">
+                <div class="container" id="portfolio">
                     <div class="portfolio">
                         <div class="text-center font-20">
                             <p>
@@ -153,9 +155,23 @@
                         </div>
                         <div class="disposition">
                             <div class="card">
-                                <a href="#" data-lightbox="img/1.webp">
+                                <!-- <a href="#" data-lightbox="img/1.webp">
+                                    <img src="img/1-small.webp" alt="Image représentant la création d'un site web journal" width="270" height="270">
+                                </a> -->
+                                <a href="#win-modal">
                                     <img src="img/1-small.webp" alt="Image représentant la création d'un site web journal" width="270" height="270">
                                 </a>
+                                <div id="win-modal" class="modal">
+                                    <div class="modal_content">
+                                        <img src="img/1.webp" alt="Image représentant une pile de livres">
+                                        <div class="content_description">
+                                            <h3 class="text-center">
+                                                Refonte d'un site web pour un journal local
+                                            </h3>
+                                        </div>
+                                        <a href="#portfolio" class="modal_close"><i class="fa-solid fa-rectangle-xmark text-shadow-white"></i></a>
+                                    </div>
+                               </div>
                                 <h3 class="text-center">
                                     Refonte d'un site web pour un journal local
                                 </h3>
