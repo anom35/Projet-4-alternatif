@@ -358,4 +358,44 @@ footer {
 }
 
 @media (max-width:320px) {
+    .description h1 {
+        font-size: 30px;
+    }
+    #form_1 {
+        display: flex;
+        width: 90%;
+    }
+    .fond-noir {
+        padding: 0;
+    }
+    .cadre h3, .cadre p {
+        padding: 0 10px;
+    }
+    .msg-main {
+        margin: 40px auto;
+    }
+    .accueil h1 {
+        font-size: 30px;
+    }
+    .modal {
+        left: 9px;
+        width: 310px;
+    }
+    .btn-dim {
+        top: 87%;
+        padding: 0 5px;
+    }
+    .btn-left {
+        left: 20px;
+    }
+    .btn-right {
+        right: 20px;
+    }
+    .modal_content h3 {
+        margin: 0;
+        margin-bottom: 15px;
+    }
+    .modal_content {
+        padding: 1em;
+    }
 }
