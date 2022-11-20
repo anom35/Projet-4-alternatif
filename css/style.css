@@ -355,6 +355,9 @@ footer {
         flex-direction: column;
         width: 260px;
     }
+    .bas-de-page {
+        background-image: url("../img/la_chouette_agence_banniere-small.webp");
+    }
 }
 
 @media (max-width:320px) {
@@ -397,5 +400,8 @@ footer {
     }
     .modal_content {
         padding: 1em;
+    }
+    .bas-de-page {
+        background-image: url("../img/la_chouette_agence_banniere-ultrasmall.webp");
     }
 }
