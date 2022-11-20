@@ -9,6 +9,7 @@
         <script src="https://kit.fontawesome.com/0faa74c727.js" crossorigin="anonymous"></script>
 
         <link rel="stylesheet" href="css/et-line.css">
+        <link rel="stylesheet" href="css/base.css">
         <link rel="stylesheet" href="css/portfolio.css">
         <link rel="stylesheet" href="css/style.css">
 
@@ -66,7 +67,7 @@
             <section>
                 <div class="presentation">
                     <div class="titre-presentation">
-                        <h2 class="font-20 text-center"><br>L'agence La Panthère est une agence de web design qui<br>aide les entreprises à devenir attractives et visibles sur internet.</h2>
+                        <h2 class="font-20 text-center"><br>L'agence La Panthère est une agence de web design qui aide les entreprises à devenir attractives et visibles sur internet.</h2>
                     </div>
                     <div class="modules">
                         <div>
@@ -145,7 +146,7 @@
 
             <!-- Portfolio -->
             <section>
-                <div class="container" id="portfolio">
+                <div class="container">
                     <div class="portfolio">
                         <div class="text-center font-20">
                             <p>
@@ -154,14 +155,11 @@
                             </p>
                         </div>
                         <div class="disposition">
-                            <div class="card">
-                                <!-- <a href="#" data-lightbox="img/1.webp">
-                                    <img src="img/1-small.webp" alt="Image représentant la création d'un site web journal" width="270" height="270">
-                                </a> -->
-                                <a href="#win-modal">
+                            <div class="card" id="portfolio">
+                                <a href="#win-modal1">
                                     <img src="img/1-small.webp" alt="Image représentant la création d'un site web journal" width="270" height="270">
                                 </a>
-                                <div id="win-modal" class="modal">
+                                <div id="win-modal1" class="modal">
                                     <div class="modal_content">
                                         <img src="img/1.webp" alt="Image représentant une pile de livres">
                                         <div class="content_description">
@@ -169,7 +167,9 @@
                                                 Refonte d'un site web pour un journal local
                                             </h3>
                                         </div>
-                                        <a href="#portfolio" class="modal_close"><i class="fa-solid fa-rectangle-xmark text-shadow-white"></i></a>
+                                        <a href="#cards" class="modal_close"><i class="fa-solid fa-rectangle-xmark text-shadow-black"></i></a>
+                                        <a href="#win-modal4" class="btn-dim btn-left"><i class="fa-solid fa-arrow-left-long  text-shadow-black"></i></a>
+                                        <a href="#win-modal2" class="btn-dim btn-right"><i class="fa-solid fa-arrow-right-long  text-shadow-black"></i></a>
                                     </div>
                                </div>
                                 <h3 class="text-center">
@@ -179,10 +179,23 @@
                                     Nous avons créé une nouvelle identité visuelle pour un journal lyonnais.
                                 </p>
                             </div>
-                            <div class="card">
-                                <a href="#" data-lightbox="img/2.webp">
+                            <div class="card" id="cards">
+                                <a href="#win-modal2" data-lightbox="img/2.webp">
                                     <img src="img/2-small.webp" alt="Image représentant la création d'un site web pour photographes" width="270" height="270">
                                 </a>
+                                <div id="win-modal2" class="modal">
+                                    <div class="modal_content">
+                                        <img src="img/2.webp" alt="Image représentant une pile de livres">
+                                        <div class="content_description">
+                                            <h3 class="text-center">
+                                                Refonte d'un site web pour un journal local
+                                            </h3>
+                                        </div>
+                                        <a href="#cards" class="modal_close"><i class="fa-solid fa-rectangle-xmark text-shadow-black"></i></a>
+                                        <a href="#win-modal1" class="btn-dim btn-left"><i class="fa-solid fa-arrow-left-long  text-shadow-black"></i></a>
+                                        <a href="#win-modal3" class="btn-dim btn-right"><i class="fa-solid fa-arrow-right-long  text-shadow-black"></i></a>
+                                    </div>
+                               </div>
                                 <h3 class="text-center">
                                     Création d'un site web pour photographes
                                 </h3>
@@ -193,9 +206,22 @@
                         </div>
                         <div class="disposition">
                             <div class="card">
-                                <a href="#" data-lightbox="img/3.webp">
+                                <a href="#win-modal3" data-lightbox="img/3.webp">
                                     <img src="img/3.webp" alt="Image représentant la création d'un site web pour voyageur" width="270" height="270">
                                 </a>
+                                <div id="win-modal3" class="modal">
+                                    <div class="modal_content">
+                                        <img src="img/3.webp" alt="Image représentant une pile de livres">
+                                        <div class="content_description">
+                                            <h3 class="text-center">
+                                                Refonte d'un site web pour un journal local
+                                            </h3>
+                                        </div>
+                                        <a href="#cards" class="modal_close"><i class="fa-solid fa-rectangle-xmark text-shadow-black"></i></a>
+                                        <a href="#win-modal2" class="btn-dim btn-left"><i class="fa-solid fa-arrow-left-long  text-shadow-black"></i></a>
+                                        <a href="#win-modal4" class="btn-dim btn-right"><i class="fa-solid fa-arrow-right-long  text-shadow-black"></i></a>
+                                    </div>
+                                </div>
                                 <h3 class="text-center">
                                     Création d'un site internet pour un voyageur
                                 </h3>
@@ -204,10 +230,23 @@
                                 </p>
                             </div>
                             <div class="card">
-                                <a href="#" data-lightbox="img/4.webp" >
+                                <a href="#win-modal4" data-lightbox="img/4.webp" >
                                     <img src="img/4.webp" alt="Image représentant la création d'un site web pour agence de mariage" width="270" height="270">
                                 </a>
-                                <h3 class="text-center">
+                                <div id="win-modal4" class="modal">
+                                    <div class="modal_content">
+                                        <img src="img/4.webp" alt="Image représentant une pile de livres">
+                                        <div class="content_description">
+                                            <h3 class="text-center">
+                                                Refonte d'un site web pour un journal local
+                                            </h3>
+                                        </div>
+                                        <a href="#cards" class="modal_close"><i class="fa-solid fa-rectangle-xmark text-shadow-black"></i></a>
+                                        <a href="#win-modal3" class="btn-dim btn-left"><i class="fa-solid fa-arrow-left-long  text-shadow-black"></i></a>
+                                        <a href="#win-modal1" class="btn-dim btn-right"><i class="fa-solid fa-arrow-right-long  text-shadow-black"></i></a>
+                                    </div>
+                               </div>
+                               <h3 class="text-center">
                                     Conception d'un site pour une agence de mariage
                                 </h3>
                                 <p class="text-center font-16">
