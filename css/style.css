@@ -355,6 +355,7 @@ footer {
         width: 260px;
     }
     .bas-de-page {
+        background-size: cover;
         background-image: url("../img/la_chouette_agence_banniere-small.webp");
     }
     .accueil {
@@ -404,6 +405,7 @@ footer {
         padding: 1em;
     }
     .bas-de-page {
+        background-size: cover;
         background-image: url("../img/la_chouette_agence_banniere-ultrasmall.webp");
     }
     .accueil {
