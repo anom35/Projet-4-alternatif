@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="robots" content="index, follow">
         <meta name="description" content="La Panthère, agence web, agence web paris, web design paris, stratégie web">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 		<link rel="shortcut icon" type="image/webp" href="img/favicon.webp">        
@@ -14,17 +15,16 @@
         <link rel="stylesheet" href="css/style.css">
 
        
-        <title>Agence - La Panthère</title>
+        <title>Agence La Panthère, meilleure entreprise webdesign à Lyon</title>
 
-        <!-- Analytics -->
-        <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-LJ6VJQPS4V"></script>
+        <!-- Google Analytics 4 -->
+		<script src="https://www.googletagmanager.com/gtag/js?id=G-71TJSW4JPC" defer></script>
         <script>
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-
-            gtag('config', 'G-LJ6VJQPS4V');
-        </script> -->
+            gtag('config', 'G-71TJSW4JPC');
+        </script>
         <!-- Analytics END -->
 
     </head>
@@ -36,15 +36,16 @@
             <!-- header -->
             <header class="header">
                 <nav>
-                    <div>
-                        <!-- <a id="logo-index" href="#"> -->
-                            <img src="img/agence-la-panthere-monochrome.svg" alt="paris web design logo agence web meilleure agence" width="270" height="40">
-                        <!-- </a> -->
+                    <div class="logo">
+                        <img src="img/agence-la-panthere-monochrome.svg" alt="paris web design logo agence web meilleure agence" width="270" height="40">
                     </div>
                     <div class="nav-bar">
                         <ul>
-                            <li><a href="index.html">Accueil</a></li>
-                            <li><a href="contact.html">Contact</a></li>
+							<li><a href="index.html" title="Lien vers la page d'accueil">Accueil</a></li>
+							<li><a href="#presentation" title="Lien vers les services du site">Services</a></li>
+							<li><a href="#services" title="Lien vers les objecfis du site">Objectifs</a></li>
+							<li><a href="#portfolio" title="Lien vers le portfolio du site">Portfolio</a></li>							
+							<li><a href="contact.html" title="Lien vers la page contact du site">Contact</a></li>
                         </ul>
                     </div>
                 </nav>
@@ -65,7 +66,7 @@
 
             <!-- Présentation des services de l'agence -->
             <section>
-                <div class="presentation">
+                <div class="presentation" id="presentation">
                     <div class="titre-presentation">
                         <h2 class="font-20 text-center"><br>L'agence La Panthère est une agence de web design qui aide les entreprises à devenir attractives et visibles sur internet.</h2>
                     </div>
@@ -122,7 +123,7 @@
             </section>
 
             <section>
-                <div class="services center">
+                <div class="services center" id="services">
                     <div class="cadre">
                         <div>
                             <h3	class="text-center text-shadow-white center font-20">
@@ -147,21 +148,23 @@
             <!-- Portfolio -->
             <section>
                 <div class="container">
-                    <div class="portfolio">
+                    <div class="portfolio" id="portfolio">
                         <div class="text-center font-20">
                             <p>
                                 Nous travaillons avec beaucoup de clients,<br>
                                 voici nos réalisations. 
                             </p>
                         </div>
-                        <div class="disposition">
-                            <div class="card" id="portfolio">
+                        <div class="disposition" id="disposition">
+                            <div class="card">
                                 <a href="#win-modal1">
-                                    <img src="img/1-small.webp" alt="Image représentant la création d'un site web journal" width="270" height="270">
+                                    <img src="img/1-small.webp" 
+                                        alt="Image représentant la création d'un site web journal" width="270" height="270">
                                 </a>
                                 <div id="win-modal1" class="modal">
                                     <div class="modal_content">
-                                        <img src="img/1.webp" alt="Image représentant une pile de livres" height="500" width="500">
+                                        <img src="img/1.webp" 
+                                            alt="Image représentant une pile de livres" height="500" width="500">
                                         <div class="content_description">
                                             <h3 class="text-center">
                                                 Refonte d'un site web pour un journal local
@@ -188,7 +191,7 @@
                                         <img src="img/2.webp" alt="Image représentant une pile de livres" width="500" height="500">
                                         <div class="content_description">
                                             <h3 class="text-center">
-                                                Refonte d'un site web pour un journal local
+                                                Création d'un site web pour photographes
                                             </h3>
                                         </div>
                                         <a href="#cards" class="modal_close"><i class="fa-solid fa-rectangle-xmark text-shadow-black"></i></a>
@@ -214,7 +217,7 @@
                                         <img src="img/3.webp" alt="Image représentant une pile de livres" width="500" height="500">
                                         <div class="content_description">
                                             <h3 class="text-center">
-                                                Refonte d'un site web pour un journal local
+                                                Création d'un site internet pour un voyageur
                                             </h3>
                                         </div>
                                         <a href="#cards" class="modal_close"><i class="fa-solid fa-rectangle-xmark text-shadow-black"></i></a>
@@ -238,7 +241,7 @@
                                         <img src="img/4.webp" alt="Image représentant une pile de livres" width="500" height="500">
                                         <div class="content_description">
                                             <h3 class="text-center">
-                                                Refonte d'un site web pour un journal local
+                                                Conception d'un site pour une agence de mariage
                                             </h3>
                                         </div>
                                         <a href="#cards" class="modal_close"><i class="fa-solid fa-rectangle-xmark text-shadow-black"></i></a>
