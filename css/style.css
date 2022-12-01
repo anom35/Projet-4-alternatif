@@ -337,25 +337,33 @@ footer {
 }
 
 @media (max-width:700px) {
+    .portfolio, .disposition {
+        display: block;
+    }
     .card {
-        justify-content: center;
-        height: 450px!important;
+        margin: 0 auto;
+        min-width: 270px;
+    }
+    .modal {
+        width: 400px;
+        left: calc(50vw - 282px);
     }
 }
 
 @media (max-width:576px) {
     .modal {
-        top: 2800px!important;
-        left: 9px;
         width: 400px;
-        left: calc((100hw / 2) - 200px);
+        left: calc(50vw - 207px);
     }
     .modal_content {
         background-color: white;
         border-radius: 5px;
-        padding: 1em 2em;
+        padding: 1em 1.55em;
         width: 350px;
         position: relative;
+    }
+    .modal_content img {
+        height: 350px!important;
     }
     .header nav {
         display: flex;
@@ -384,19 +392,44 @@ footer {
 
 @media (max-width:320px) {
     .modal {
-        top: 2800px!important;
-        left: 9px;
-        width: 320px;
-        height: 320px!important;
-        left: calc((100hw / 2) - 210px);
+        width: 305px;
+        height: 305px!important;
+        left: calc((100vw / 2) - 155px);
+        border-radius: 5px;
+    }
+    .modal_content img {
+        height: 250px!important;
     }
     .modal_content {
         background-color: white;
         border-radius: 5px;
-        padding: 1em 2em;
+        padding: 1em 1em;
         width: 280px;
         height: 280px!important;
         position: relative;
+        font-size: 1rem;
+        margin: 0;
+    }
+    .modal_content {
+        font-size: 0.8rem;
+    }
+    .btn-dim {
+        top: 50%!important;
+        font-size: 1.5em;
+        color: var(--orange);
+        padding: 0 5px;
+        background-color: grey;
+        border-radius: 5px;
+    }
+    .modal_content h3 {
+        margin: 0;
+        margin-bottom: 15px;
+    }
+    .btn-left {
+        left: 5px!important;
+    }
+    .btn-right {
+        right: 5px!important;
     }
     nav div {
         height: 50px;
@@ -433,7 +466,7 @@ footer {
     .accueil h1 {
         font-size: 30px;
     }
-    .modal {
+    /* .modal {
         left: 9px;
         width: 310px;
     }
@@ -453,7 +486,7 @@ footer {
     }
     .modal_content {
         padding: 1em;
-    }
+    } */
     .bas-de-page {
         background-size: cover;
         background-image: url("../img/la_chouette_agence_banniere-ultrasmall.webp");
