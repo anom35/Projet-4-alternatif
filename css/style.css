@@ -303,6 +303,9 @@ footer {
     background-color: var(--orangelight);
     padding: 20px 0;
 }
+.small-font {
+    font-size: 5px;
+}
 /* fin footer */
 
 
