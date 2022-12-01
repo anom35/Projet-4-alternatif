@@ -245,9 +245,7 @@ nav div {
     margin: 0 auto;
     gap: 30px;
 }
-.disposition > div {
-    width: 50%;
-}
+
 .disposition p,
 .disposition h3 {
     margin: 10px 0;
@@ -259,9 +257,7 @@ nav div {
     display: flex;
     flex-direction: column;
 }
-.card img {
-    width: 100%;
-}
+
 /* fin portfolio */
 
 
