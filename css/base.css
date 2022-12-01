@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap');
 
 :root {
-    --orange: #a87008;
+    --orange: #7a5105;
     --orangelight: #F3976C;
     --grisnoir: #221f1f;
     --grislight: #E2E1DD;
@@ -45,11 +45,11 @@ h1, h2, h3 { color: var(--grisnoir);}
 }
 .btn-look {
     display: flex;
-    border: 1px solid var(--orange);
+    border: 1px solid var(--grisnoir);
     padding: 10px 20px;
     border-radius: 30px;
     background-color: var(--orange);
-    color: var(--grisnoir);
+    color: white;
     font-size: 18px;
     width: 200px;
     justify-content: center;
@@ -61,7 +61,7 @@ h1, h2, h3 { color: var(--grisnoir);}
 .btn-look:hover {
     box-shadow: 0 0 10px pink;
     border-color: white;
-    text-shadow: 0 0 3px white!important;
+    text-shadow: 0 0 10px var(--grisnoir)!important;
 }
 
 .center { justify-content: center; }
