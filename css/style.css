@@ -320,7 +320,8 @@ footer {
     text-align: center;
     padding: 80px 0;
 }
-.description p {
+.description p,
+.description h1 {
     color: rgb(220, 215, 215);
 }
 .fond-contact {
