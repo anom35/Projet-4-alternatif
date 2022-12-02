@@ -256,6 +256,7 @@ nav div {
 .card {
     display: flex;
     flex-direction: column;
+    width: 270px;
 }
 
 /* fin portfolio */
@@ -425,6 +426,9 @@ footer {
         padding-left: 10px;
         padding-right: 10px; 
     }
+    .card a {
+        margin: 0 auto;
+    }
 }
 
 @media (max-width:700px) {
@@ -433,7 +437,6 @@ footer {
     }
     .card {
         margin: 0 auto;
-        min-width: 270px;
     }
     .modal {
         width: 400px;
